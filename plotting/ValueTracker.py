@@ -30,4 +30,5 @@ class DotOnParabola(Scene):
 
         self.add(dot, label)
         self.play(x_tracker.animate.set_value(3), run_time=5, rate_func=linear)
+        #added git push
         self.wait()
