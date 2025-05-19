@@ -4,8 +4,8 @@ class SineWave(Scene):
     def construct(self):
         axes = Axes(
             x_range=[0, 2*PI, PI/2],
-            y_range=[-1.5, 1.5, 0.5],
-            x_length=10,
+            y_range=[-1.5, 3, 1],
+            x_length=2,
             y_length=6,
             axis_config={"include_numbers": False},
         )
