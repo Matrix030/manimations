@@ -11,3 +11,6 @@ wheels/
 
 
 media
+.python-version
+pyproject.toml
+uv.lock
