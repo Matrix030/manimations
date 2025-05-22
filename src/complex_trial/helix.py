@@ -48,7 +48,7 @@ class ComplexExponentialVisualization(ThreeDScene):
             t_range=[0, 4, 0.01],
             color=BLACK,
             stroke_width=4,
-        ).shift(DOWN * 1)  # Apply the same shift as axes
+        ).shift(DOWN * 2)  # Apply the same shift as axes
         
         self.play(ReplacementTransform(circle, spiral), run_time=2)
         self.wait()
@@ -146,6 +146,9 @@ if __name__ == "__main__":
     config.pixel_height = 1080
     config.pixel_width = 1920
     config.frame_rate = 30
+    
+    
+    
     
     scene = ComplexExponentialVisualization()
     scene.render()
